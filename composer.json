@@ -1,1 +1,23 @@
-
+{
+  "name": "local/variante-immer-hauptprodukt",
+  "description": "Zeigt im Listing trotz Variantenfilter das Hauptprodukt statt der Variante an.",
+  "type": "shopware-platform-plugin",
+  "license": "proprietary",
+  "version": "1.0.0",
+  "require": {
+    "shopware/core": "~6.7.0",
+    "shopware/storefront": "~6.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "VarianteImmerHauptprodukt\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "VarianteImmerHauptprodukt\\VarianteImmerHauptprodukt",
+    "label": {
+      "de-DE": "Variante immer Hauptprodukt",
+      "en-GB": "Always show parent product"
+    }
+  }
+}
